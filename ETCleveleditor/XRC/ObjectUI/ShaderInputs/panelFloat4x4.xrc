@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<resource version="2.3.0.1">
+  <object class="wxPanel" name="panelFloat4x4" subclass="Float4x4InputPanel">
+    <style>wxTAB_TRAVERSAL</style>
+    <object class="wxFlexGridSizer">
+      <hgap>0</hgap>
+      <rows>5</rows>
+      <cols>1</cols>
+      <vgap>0</vgap>
+      <object class="sizeritem">
+        <object class="wxStaticText">
+          <label>Input Name:</label>
+        </object>
+        <flag>wxTOP|wxBOTTOM|wxLEFT</flag>
+        <border>2</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxTextCtrl" name="txtInputName"/>
+        <flag>wxLEFT|wxRIGHT|wxEXPAND</flag>
+        <border>4</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticBoxSizer">
+          <label>Values</label>
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxFlexGridSizer">
+              <cols>8</cols>
+              <rows>8</rows>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>0,0</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR0C0">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>0,1</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR0C1">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>0,3</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR0C2">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>0,3</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR0C4">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>1,0</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR1C0">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>1,1</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR1C1">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>1,2</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR1C2">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>1,3</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR1C3">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+            </object>
+            <flag>wxEXPAND</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxFlexGridSizer">
+              <cols>8</cols>
+              <rows>8</rows>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>2,0</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR2C0">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>2,1</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR2C1">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>2,2</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR2C2">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>2,3</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR2C3">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>3,0</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR3C0">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>3,1</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR3C1">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>3,2</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR3C2">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>3,3</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtR3C3">
+                  <size>25,21</size>
+                </object>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+            </object>
+            <flag>wxEXPAND</flag>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxButton" name="btnUpdate">
+          <label>Update</label>
+        </object>
+        <flag>wxTOP|wxALL|wxEXPAND|wxALIGN_CENTRE_HORIZONTAL</flag>
+        <border>3</border>
+      </object>
+    </object>
+  </object>
+</resource>

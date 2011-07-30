@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<resource version="2.3.0.1">
+  <object class="wxPanel" name="materialPanel">
+    <style>wxTAB_TRAVERSAL</style>
+    <object class="wxFlexGridSizer">
+      <hgap>0</hgap>
+      <rows>9</rows>
+      <cols>1</cols>
+      <vgap>0</vgap>
+      <object class="sizeritem">
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+        <object class="wxStaticBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <label>Ambient</label>
+          <object class="sizeritem">
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+            <object class="wxFlexGridSizer">
+              <hgap>0</hgap>
+              <rows>4</rows>
+              <cols>2</cols>
+              <vgap>0</vgap>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_11">
+                  <label>Red</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtAmbR"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_12">
+                  <label>Green</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtAmbG"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Blue</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtAmbB"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Alpha</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtAmbA"/>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+        <object class="wxStaticBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <label>Diffuse</label>
+          <object class="sizeritem">
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+            <object class="wxFlexGridSizer">
+              <hgap>0</hgap>
+              <rows>4</rows>
+              <cols>2</cols>
+              <vgap>0</vgap>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_11">
+                  <label>Red</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtDiffR"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_12">
+                  <label>Green</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtDiffG"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Blue</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtDiffB"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Alpha</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtDiffA"/>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+        <object class="wxStaticBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <label>Emission</label>
+          <object class="sizeritem">
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+            <object class="wxFlexGridSizer">
+              <hgap>0</hgap>
+              <rows>4</rows>
+              <cols>2</cols>
+              <vgap>0</vgap>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_11">
+                  <label>Red</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtEmitR"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_12">
+                  <label>Green</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtEmitG"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Blue</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtEmitB"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Alpha</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtEmitA"/>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+        <object class="wxStaticBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <label>Specular</label>
+          <object class="sizeritem">
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+            <object class="wxFlexGridSizer">
+              <hgap>0</hgap>
+              <rows>4</rows>
+              <cols>2</cols>
+              <vgap>0</vgap>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_11">
+                  <label>Red</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtSpecR"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_12">
+                  <label>Green</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtSpecG"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Blue</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtSpecB"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Alpha</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtSpecA"/>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+        <object class="wxStaticBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <label>Shininess</label>
+          <object class="sizeritem">
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+            <object class="wxFlexGridSizer">
+              <hgap>0</hgap>
+              <rows>4</rows>
+              <cols>2</cols>
+              <vgap>0</vgap>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_11">
+                  <label>Red</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtShinyR"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_12">
+                  <label>Green</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtShinyG"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Blue</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtShinyB"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Alpha</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtShinyA"/>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+</resource>

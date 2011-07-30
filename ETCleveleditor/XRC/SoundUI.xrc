@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="cp1252"?>
+<resource>
+  <object class="wxPanel" name="panelSound">
+    <object class="wxFlexGridSizer">
+      <cols>1</cols>
+      <rows>2</rows>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="lblDragTarget">
+          <label>To add a sound to the scene\nDrag a sound asset to this panel.\nUse the Edit and Remove\nbuttons to edit the selected sounds.</label>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxFlexGridSizer">
+          <cols>2</cols>
+          <rows>1</rows>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnEdit">
+              <label>Edit</label>
+            </object>
+            <flag>wxEXPAND</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnRemove">
+              <label>Remove</label>
+            </object>
+            <flag>wxEXPAND</flag>
+          </object>
+        </object>
+        <flag>wxALL</flag>
+        <border>3</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxListBox" name="listBoxSounds">
+          <content/>
+          <style>wxLB_SINGLE|wxLB_ALWAYS_SB</style>
+        </object>
+        <flag>wxALL|wxEXPAND</flag>
+        <border>3</border>
+      </object>
+      <growablerows>2</growablerows>
+    </object>
+  </object>
+</resource>

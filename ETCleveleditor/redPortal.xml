@@ -1,0 +1,2 @@
+<?xml version="1.0" ?><journalEntry><tag>redPortal</tag><name>Go to the red portal!</name><line><text>Talk to Marcus, member of The Talking Signs.</text><endpoint>False</endpoint><entryValue>10</entryValue></line><line><text>Enter the yellow portal.
+</text><endpoint>False</endpoint><entryValue>20</entryValue></line></journalEntry>

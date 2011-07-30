@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="cp1252"?>
+<resource>
+  <object class="wxDialog" name="dlgLibraryBrowser">
+    <title>Library Browser</title>
+    <centered>1</centered>
+    <size>600,660</size>
+    <style>wxDEFAULT_DIALOG_STYLE</style>
+    <object class="wxFlexGridSizer">
+      <object class="sizeritem">
+        <object class="wxStaticText" name="lblLibName">
+          <label>Library Name</label>
+        </object>
+      </object>
+      <object class="spacer">
+        <size>0,10</size>
+      </object>
+      <object class="sizeritem">
+        <object class="wxNotebook" name="notebook">
+          <style>wxNB_TOP</style>
+          <object class="notebookpage">
+            <label>Meshes</label>
+            <object class="wxPanel" name="meshTab">
+              <object class="wxStaticBoxSizer">
+                <label></label>
+                <orient>wxVERTICAL</orient>
+                <object class="sizeritem">
+                  <object class="wxListCtrl" name="listMeshes">
+                    <style>wxLC_ICON|wxLC_SINGLE_SEL</style>
+                  </object>
+                  <flag>wxEXPAND</flag>
+                  <minsize>600,550</minsize>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object class="notebookpage">
+            <label>Actors</label>
+            <object class="wxPanel" name="actorTab">
+              <object class="wxStaticBoxSizer">
+                <label></label>
+                <orient>wxVERTICAL</orient>
+                <object class="sizeritem">
+                  <object class="wxListCtrl" name="listActors">
+                    <style>wxLC_ICON|wxLC_SINGLE_SEL</style>
+                  </object>
+                  <flag>wxEXPAND</flag>
+                  <minsize>600,550</minsize>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object class="notebookpage">
+            <label>Animations</label>
+            <object class="wxPanel" name="animTab">
+              <object class="wxStaticBoxSizer">
+                <label></label>
+                <orient>wxVERTICAL</orient>
+                <object class="sizeritem">
+                  <object class="wxListCtrl" name="listAnims">
+                    <style>wxLC_ICON|wxLC_SINGLE_SEL</style>
+                  </object>
+                  <flag>wxEXPAND</flag>
+                  <minsize>600,550</minsize>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object class="notebookpage">
+            <label>Textures</label>
+            <object class="wxPanel" name="textureTab">
+              <object class="wxStaticBoxSizer">
+                <label></label>
+                <orient>wxVERTICAL</orient>
+                <object class="sizeritem">
+                  <object class="wxListCtrl" name="listTextures">
+                    <style>wxLC_ICON|wxLC_SINGLE_SEL</style>
+                  </object>
+                  <flag>wxEXPAND</flag>
+                  <minsize>600,550</minsize>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object class="notebookpage">
+            <label>Shaders</label>
+            <object class="wxPanel" name="shaderTab">
+              <object class="wxStaticBoxSizer">
+                <label></label>
+                <orient>wxVERTICAL</orient>
+                <object class="sizeritem">
+                  <object class="wxListCtrl" name="listShaders">
+                    <style>wxLC_ICON|wxLC_SINGLE_SEL</style>
+                  </object>
+                  <flag>wxEXPAND</flag>
+                  <minsize>600,550</minsize>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object class="notebookpage">
+            <label>Sounds</label>
+            <object class="wxPanel" name="soundTab">
+              <object class="wxStaticBoxSizer">
+                <label></label>
+                <orient>wxVERTICAL</orient>
+                <object class="sizeritem">
+                  <object class="wxListCtrl" name="listSounds">
+                    <style>wxLC_ICON|wxLC_SINGLE_SEL</style>
+                  </object>
+                  <flag>wxEXPAND</flag>
+                  <minsize>600,550</minsize>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object class="notebookpage">
+            <label>Terrains</label>
+            <object class="wxPanel" name="terrainTab">
+              <object class="wxStaticBoxSizer">
+                <label></label>
+                <orient>wxVERTICAL</orient>
+                <object class="sizeritem">
+                  <object class="wxListCtrl" name="listTerrains">
+                    <style>wxLC_ICON|wxLC_SINGLE_SEL</style>
+                  </object>
+                  <flag>wxEXPAND</flag>
+                  <minsize>600,550</minsize>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object class="notebookpage">
+            <label>Conversations</label>
+            <object class="wxPanel" name="conversationTab">
+              <object class="wxStaticBoxSizer">
+                <label></label>
+                <orient>wxVERTICAL</orient>
+                <object class="sizeritem">
+                  <object class="wxListCtrl" name="listConversations">
+                    <style>wxLC_ICON|wxLC_SINGLE_SEL</style>
+                  </object>
+                  <flag>wxEXPAND</flag>
+                  <minsize>600,550</minsize>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object class="notebookpage">
+            <label>Scripts</label>
+            <object class="wxPanel" name="scriptTab">
+              <object class="wxStaticBoxSizer">
+                <label></label>
+                <orient>wxVERTICAL</orient>
+                <object class="sizeritem">
+                  <object class="wxListCtrl" name="listScripts">
+                    <style>wxLC_ICON|wxLC_SINGLE_SEL</style>
+                  </object>
+                  <flag>wxEXPAND</flag>
+                  <minsize>600,550</minsize>
+                </object>
+              </object>
+            </object>
+          </object>
+        </object>
+        <flag>wxEXPAND</flag>
+        <minsize>600,600</minsize>
+      </object>
+      <object class="spacer">
+        <size>0,10</size>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnAddToLibrary">
+              <label>Add To Library</label>
+            </object>
+            <flag>wxALIGN_RIGHT</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnClose">
+              <label>Close</label>
+            </object>
+          </object>
+        </object>
+        <flag>wxALIGN_RIGHT</flag>
+      </object>
+      <cols>1</cols>
+      <rows>5</rows>
+    </object>
+  </object>
+</resource>

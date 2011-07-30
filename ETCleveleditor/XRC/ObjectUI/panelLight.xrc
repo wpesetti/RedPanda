@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<resource version="2.3.0.1">
+  <object class="wxPanel" name="lightPanel" subclass="MyPanel">
+    <style>wxTAB_TRAVERSAL</style>
+    <object class="wxFlexGridSizer">
+      <hgap>0</hgap>
+      <rows>10</rows>
+      <cols>1</cols>
+      <vgap>0</vgap>
+      <object class="sizeritem">
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+        <object class="wxStaticBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <label>Color</label>
+          <object class="sizeritem">
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+            <object class="wxFlexGridSizer">
+              <hgap>0</hgap>
+              <rows>4</rows>
+              <cols>3</cols>
+              <vgap>0</vgap>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>Intensity</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slIntensity">
+                  <value></value>
+                  <min></min>
+                  <max></max>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtIntensity">
+                  <size>50, -1</size>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_11">
+                  <label>Red</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slColorR">
+                  <min>0</min>
+                  <max> 100</max>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtColorR">
+                  <size>50, -1</size>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_12">
+                  <label>Green</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slColorG">
+                  <min>0</min>
+                  <max> 100</max>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtColorG">
+                  <size>50, -1</size>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Blue</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slColorB">
+                  <min>0</min>
+                  <max> 100</max>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtColorB">
+                  <size>50, -1</size>
+                </object>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+        <object class="wxStaticBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <label>Specular Color</label>
+          <object class="sizeritem">
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+            <object class="wxFlexGridSizer">
+              <hgap>0</hgap>
+              <rows>4</rows>
+              <cols>3</cols>
+              <vgap>0</vgap>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>Intensity</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slSpecI">
+                  <value></value>
+                  <min></min>
+                  <max></max>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtSpecI">
+                  <size>50,-1</size>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_11">
+                  <label>Red</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slSpecR">
+                  <min>0</min>
+                  <max> 100</max>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtSpecR">
+                  <size>50, -1</size>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_12">
+                  <label>Green</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slSpecG">
+                  <min>0</min>
+                  <max> 100</max>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtSpecG">
+                  <size>50, -1</size>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Blue</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slSpecB">
+                  <min>0</min>
+                  <max> 100</max>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtSpecB">
+                  <size>50, -1</size>
+                </object>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+        <object class="wxStaticBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <label>Attenuation</label>
+          <object class="sizeritem">
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+            <object class="wxFlexGridSizer">
+              <hgap>0</hgap>
+              <rows>4</rows>
+              <cols>3</cols>
+              <vgap>0</vgap>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_11">
+                  <label>Constant</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slAttenX">
+                  <min>0</min>
+                  <max> 100</max>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtAttenX">
+                  <size>50, -1</size>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_12">
+                  <label>Linear</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slAttenY">
+                  <min>0</min>
+                  <max> 100</max>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtAttenY">
+                  <size>50, -1</size>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Quadratic</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slAttenZ">
+                  <min>0</min>
+                  <max> 100</max>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtAttenZ">
+                  <size>50, -1</size>
+                </object>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+        <object class="wxStaticBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <label>Exponent (Fall-off)</label>
+          <object class="sizeritem">
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+            <object class="wxFlexGridSizer">
+              <hgap>0</hgap>
+              <rows>4</rows>
+              <cols>3</cols>
+              <vgap>0</vgap>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_11">
+                  <label>Value:</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slExponent">
+                  <min>0</min>
+                  <max> 100</max>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtExponent">
+                  <size>50, -1</size>
+                </object>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <label>Shadows</label>
+          <object class="sizeritem">
+            <object class="wxCheckBox" name="chkShadows">
+              <label>Cast Shadows</label>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticText" name="object_11">
+              <label></label>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticBoxSizer">
+              <orient>wxVERTICAL</orient>
+              <label>Buffer Size</label>
+              <object class="sizeritem">
+                <object class="wxBoxSizer">
+                  <orient>wxVERTICAL</orient>
+                  <object class="sizeritem">
+                    <object class="wxTextCtrl" name="txtBuffer"/>
+                  </object>
+                </object>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText">
+          <label>Affected Objects</label>
+        </object>
+        <flag>wxALIGN_CENTRE_HORIZONTAL</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxListBox" name="listBoxTargets">
+          <content/>
+        </object>
+        <flag>wxALL|wxEXPAND</flag>
+        <border>6</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxFlexGridSizer">
+          <cols>2</cols>
+          <rows>1</rows>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnAdd">
+              <label>Add Object</label>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnRemove">
+              <label>Remove Object</label>
+            </object>
+          </object>
+        </object>
+        <flag>wxEXPAND|wxALIGN_CENTRE_HORIZONTAL</flag>
+      </object>
+      <growablerows>6</growablerows>
+    </object>
+  </object>
+</resource>

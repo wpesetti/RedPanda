@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="cp1252"?>
+<resource>
+  <object class="wxDialog" name="dlgWaypoint">
+    <title>Choose Waypoints to add to the camera</title>
+    <object class="wxFlexGridSizer">
+      <cols>1</cols>
+      <rows>2</rows>
+      <object class="sizeritem">
+        <object class="wxStaticText">
+          <label>Scene Graph</label>
+        </object>
+        <flag>wxALIGN_CENTRE_HORIZONTAL</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxTreeCtrl" name="treeSceneGraph"/>
+        <flag>wxALL|wxEXPAND</flag>
+        <border>3</border>
+        <minsize>150,125</minsize>
+      </object>
+      <growablecols>0</growablecols>
+      <growablerows>0</growablerows>
+      <object class="sizeritem">
+        <object class="wxStaticText">
+          <label>Waypoints</label>
+        </object>
+        <flag>wxALIGN_CENTRE_HORIZONTAL</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxFlexGridSizer">
+          <cols>2</cols>
+          <rows>2</rows>
+          <object class="sizeritem">
+            <object class="wxListBox" name="listBoxWP">
+              <content/>
+            </object>
+            <border>3</border>
+            <minsize>115,125</minsize>
+          </object>
+          <object class="sizeritem">
+            <object class="wxGridSizer">
+              <cols>1</cols>
+              <rows>5</rows>
+              <object class="sizeritem">
+                <object class="wxButton" name="btnUp">
+                  <label>Up</label>
+                </object>
+                <minsize>50,25</minsize>
+              </object>
+              <object class="sizeritem">
+                <object class="wxButton" name="btnDown">
+                  <label>Down</label>
+                </object>
+                <minsize>50,25</minsize>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label></label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxButton" name="btnRemove">
+                  <label>Remove</label>
+                </object>
+                <minsize>50,25</minsize>
+              </object>
+              <object class="sizeritem">
+                <object class="wxButton" name="btnClear">
+                  <label>Clear</label>
+                </object>
+                <minsize>50,25</minsize>
+              </object>
+            </object>
+            <flag>wxALIGN_CENTRE_VERTICAL</flag>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxFlexGridSizer">
+          <cols>2</cols>
+          <rows>1</rows>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnAdd">
+              <label>Accept</label>
+            </object>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>3</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnCancel">
+              <label>Cancel</label>
+            </object>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>3</border>
+          </object>
+        </object>
+      </object>
+    </object>
+    <centered>1</centered>
+    <size>200,200</size>
+    <style>wxDEFAULT_DIALOG_STYLE|wxRESIZE_BORDER</style>
+  </object>
+</resource>

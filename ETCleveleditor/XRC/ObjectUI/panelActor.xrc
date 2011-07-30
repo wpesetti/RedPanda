@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<resource version="2.3.0.1">
+  <object class="wxPanel" name="actorPanel">
+    <style>wxTAB_TRAVERSAL</style>
+    <object class="wxFlexGridSizer">
+      <hgap>0</hgap>
+      <rows>9</rows>
+      <cols>1</cols>
+      <vgap>0</vgap>
+      <object class="sizeritem">
+        <object class="wxStaticBoxSizer">
+          <label>Animations</label>
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxStaticText">
+              <label>Name</label>
+            </object>
+            <flag>wxALL</flag>
+            <border>2</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxComboBox" name="cboxAnimNameList">
+              <content/>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticBoxSizer">
+              <label>Controls</label>
+              <orient>wxVERTICAL</orient>
+              <object class="sizeritem">
+                <object class="wxRadioButton" name="rdoPlay">
+                  <label>Play</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxRadioButton" name="rdoLoop">
+                  <label>Loop</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxRadioButton" name="rdoPose">
+                  <label>Pose</label>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticBoxSizer">
+              <label>Play Rate</label>
+              <orient>wxVERTICAL</orient>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtPlayRate"/>
+              </object>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticBoxSizer">
+              <label>Frame</label>
+              <orient>wxVERTICAL</orient>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slFrame"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtFrame"/>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticBoxSizer">
+          <label>Joints</label>
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxTreeCtrl" name="treeJoints">
+              <size>225,250</size>
+            </object>
+            <flag>wxALL</flag>
+            <border>2</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxFlexGridSizer">
+              <cols>1</cols>
+              <rows>3</rows>
+              <object class="sizeritem">
+                <object class="wxButton" name="btnExpose">
+                  <label>Expose</label>
+                </object>
+                <flag>wxEXPAND</flag>
+              </object>
+              <object class="sizeritem">
+                <object class="wxButton" name="btnControl">
+                  <label>Control</label>
+                </object>
+                <flag>wxEXPAND</flag>
+              </object>
+              <object class="sizeritem">
+                <object class="wxButton" name="btnRelease">
+                  <label>Release</label>
+                </object>
+                <flag>wxEXPAND</flag>
+              </object>
+              <growablecols>0</growablecols>
+            </object>
+            <flag>wxEXPAND</flag>
+          </object>
+        </object>
+      </object>
+      <growablerows>5</growablerows>
+    </object>
+  </object>
+</resource>

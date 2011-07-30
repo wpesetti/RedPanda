@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<resource version="2.3.0.1">
+  <object class="wxPanel" name="panelNodepath" subclass="NodepathInputPanel">
+    <style>wxTAB_TRAVERSAL</style>
+    <object class="wxFlexGridSizer">
+      <hgap>0</hgap>
+      <rows>5</rows>
+      <cols>1</cols>
+      <vgap>0</vgap>
+      <object class="sizeritem">
+        <object class="wxStaticText">
+          <label>Input Name:</label>
+        </object>
+        <flag>wxTOP|wxBOTTOM|wxLEFT</flag>
+        <border>2</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxTextCtrl" name="txtInputName"/>
+        <flag>wxLEFT|wxRIGHT|wxEXPAND</flag>
+        <border>4</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="lblDrag">
+          <label>Drag and Object\nfrom the scene\nto the area below\nto add it as an input,\nor click the\nload selected button</label>
+        </object>
+        <flag>wxALL</flag>
+        <border>3</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxPanel">
+          <tooltip>Drag an object to this area</tooltip>
+        </object>
+        <flag>wxALL|wxEXPAND</flag>
+        <border>4</border>
+        <minsize>-1,200</minsize>
+      </object>
+      <object class="sizeritem">
+        <object class="wxButton" name="btnLoadSelected">
+          <label>Load Selected</label>
+        </object>
+        <flag>wxALL|wxEXPAND</flag>
+        <border>3</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxButton" name="btnUpdate">
+          <label>Update</label>
+        </object>
+        <flag>wxTOP|wxALL|wxEXPAND|wxALIGN_CENTRE_HORIZONTAL</flag>
+        <border>3</border>
+      </object>
+      <growablerows>2</growablerows>
+    </object>
+  </object>
+</resource>

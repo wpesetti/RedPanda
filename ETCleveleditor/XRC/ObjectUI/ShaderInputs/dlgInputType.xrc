@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="cp1252"?>
+<resource>
+  <object class="wxDialog" name="dlgShaderInputType">
+    <title>Select Shader Input Type</title>
+    <object class="wxFlexGridSizer">
+      <cols>2</cols>
+      <rows>4</rows>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="lblName">
+          <label>Input Name:</label>
+        </object>
+        <flag>wxTOP|wxLEFT</flag>
+        <border>4</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxTextCtrl" name="txtName"/>
+        <flag>wxALL|wxEXPAND</flag>
+        <border>4</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="lblType">
+          <label>Input Type:</label>
+        </object>
+        <flag>wxALL|wxEXPAND</flag>
+        <border>4</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxChoice" name="choiceType">
+          <content>
+            <item>float</item>
+            <item>float3</item>
+            <item>float4</item>
+            <item>float4x4</item>
+            <item>time</item>
+            <item>camera position</item>
+            <item>object</item>
+			<item>texture</item>
+            <item>cube map</item>
+          </content>
+          <selection>0</selection>
+        </object>
+        <flag>wxALL|wxEXPAND</flag>
+        <border>4</border>
+      </object>
+      <growablecols>0</growablecols>
+      <object class="sizeritem">
+        <object class="wxButton" name="btnOK">
+          <label>OK</label>
+        </object>
+        <flag>wxALL</flag>
+        <border>4</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxButton" name="btnCancel">
+          <label>Cancel</label>
+        </object>
+        <flag>wxALL</flag>
+        <border>4</border>
+      </object>
+    </object>
+    <centered>1</centered>
+    <style>wxDEFAULT_DIALOG_STYLE</style>
+  </object>
+</resource>

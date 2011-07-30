@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<resource version="2.3.0.1">
+  <object class="wxDialog" name="dlgLoadAsset">
+    <size>200,450</size>
+    <style>wxDEFAULT_DIALOG_STYLE</style>
+    <object class="wxFlexGridSizer">
+      <hgap>0</hgap>
+      <growablerows>0</growablerows>
+      <rows>2</rows>
+      <growablecols>0</growablecols>
+      <cols>1</cols>
+      <vgap>0</vgap>
+      <object class="sizeritem">
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+        <object class="wxTreeCtrl" name="treeLibrary">
+          <style>wxTR_HAS_BUTTONS|wxTR_LINES_AT_ROOT|wxTR_HIDE_ROOT|wxTR_DEFAULT_STYLE|wxSUNKEN_BORDER</style>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <option>1</option>
+        <object class="wxFlexGridSizer">
+          <hgap>0</hgap>
+          <rows>2</rows>
+          <cols>2</cols>
+          <vgap>0</vgap>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnOk">
+              <label>OK</label>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnCancel">
+              <label>Cancel</label>
+            </object>
+          </object>
+        </object>
+        <flag>wxEXPAND</flag>
+      </object>
+    </object>
+    <title>Load Asset</title>
+  </object>
+</resource>

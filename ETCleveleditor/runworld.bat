@@ -1,0 +1,2 @@
+python LevelEditorStart.py
+pause

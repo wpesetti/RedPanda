@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="cp1252"?>
+<resource>
+  <object class="wxPanel" name="panelThumb">
+    <object class="wxFlexGridSizer">
+      <cols>1</cols>
+      <rows>3</rows>
+      <object class="sizeritem">
+        <object class="wxStaticBitmap" name="imgThumbnail">
+          <bitmap></bitmap>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="lblInstanceLabel">
+          <label>Number in current scene:</label>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="lblInstanceCount">
+          <label>0</label>
+        </object>
+      </object>
+    </object>
+    <style></style>
+  </object>
+</resource>

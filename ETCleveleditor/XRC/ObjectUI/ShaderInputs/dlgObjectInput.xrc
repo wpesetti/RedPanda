@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="cp1252"?>
+<resource>
+  <object class="wxDialog" name="dlgObjectInput">
+    <title>Choose an object to add as an input</title>
+    <object class="wxFlexGridSizer">
+      <cols>1</cols>
+      <rows>2</rows>
+      <object class="sizeritem">
+        <object class="wxTreeCtrl" name="treeSceneGraph"/>
+        <flag>wxALL|wxEXPAND</flag>
+        <border>3</border>
+      </object>
+      <growablecols>0</growablecols>
+      <growablerows>0</growablerows>
+      <object class="sizeritem">
+        <object class="wxFlexGridSizer">
+          <cols>2</cols>
+          <rows>1</rows>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnCancel">
+              <label>Cancel</label>
+            </object>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>3</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnOk">
+              <label>Ok</label>
+            </object>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>3</border>
+          </object>
+        </object>
+      </object>
+    </object>
+    <centered>1</centered>
+    <size>200,200</size>
+    <style>wxDEFAULT_DIALOG_STYLE|wxRESIZE_BORDER</style>
+  </object>
+</resource>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<resource>
+  <object class="wxDialog" name="dlgYesNoForAll">
+    <title></title>
+    <object class="wxGridSizer">
+      <cols>1</cols>
+      <rows>1</rows>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="lblMessage">
+          <label></label>
+        </object>
+        <flag>wxALIGN_CENTRE</flag>
+        <border>5</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxGridSizer">
+          <cols>2</cols>
+          <rows>1</rows>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnYes">
+              <label>Yes</label>
+              <default>1</default>
+            </object>
+            <border>5</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnNo">
+              <label>No</label>
+            </object>
+            <border>5</border>
+          </object>
+        </object>
+        <border>5</border>
+      </object>
+      <vgap>5</vgap>
+      <hgap>5</hgap>
+      <object class="sizeritem">
+        <object class="wxCheckBox" name="chkDoForAll">
+          <label></label>
+          <checked>0</checked>
+          <style></style>
+        </object>
+        <flag>wxALIGN_CENTRE</flag>
+        <border>5</border>
+      </object>
+    </object>
+    <style>wxCAPTION|wxTHICK_FRAME|wxRESIZE_BORDER|wxRESIZE_BOX|wxTAB_TRAVERSAL</style>
+  </object>
+</resource>

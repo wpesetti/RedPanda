@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<resource version="2.3.0.1">
+  <object class="wxPanel" name="panelTime" subclass="TimeInputPanel">
+    <style>wxTAB_TRAVERSAL</style>
+    <object class="wxFlexGridSizer">
+      <hgap>0</hgap>
+      <rows>5</rows>
+      <cols>1</cols>
+      <vgap>0</vgap>
+      <object class="sizeritem">
+        <object class="wxStaticText">
+          <label>Input Name:</label>
+        </object>
+        <flag>wxTOP|wxBOTTOM|wxLEFT</flag>
+        <border>2</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxTextCtrl" name="txtInputName"/>
+        <flag>wxLEFT|wxRIGHT|wxEXPAND</flag>
+        <border>4</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticBoxSizer">
+          <label>Offset</label>
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxTextCtrl" name="txtOffset"/>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxButton" name="btnUpdate">
+          <label>Update</label>
+        </object>
+        <flag>wxTOP|wxALL|wxEXPAND|wxALIGN_CENTRE_HORIZONTAL</flag>
+        <border>3</border>
+      </object>
+    </object>
+  </object>
+</resource>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="cp1252"?>
+<resource>
+  <object class="wxDialog" name="dlgExportOptions">
+    <title>Export Options</title>
+    <style>wxDEFAULT_DIALOG_STYLE</style>
+    <object class="wxFlexGridSizer">
+      <cols>1</cols>
+      <rows>3</rows>
+      <object class="sizeritem">
+        <object class="wxStaticBoxSizer">
+          <label>Default World Sound</label>
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxCheckBox" name="chkEnableSound">
+              <label>Enable</label>
+            </object>
+            <flag>wxEXPAND</flag>
+            <border>0</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticText" name="lblCurrentSound">
+              <label>No Sound Loaded</label>
+              <enabled>0</enabled>
+            </object>
+            <flag>wxALL</flag>
+            <border>0</border>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnLoadSound">
+              <label>Load</label>
+              <enabled>0</enabled>
+            </object>
+            <flag>wxALL</flag>
+            <border>3</border>
+          </object>
+        </object>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticBoxSizer">
+          <label>Camera Options</label>
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxFlexGridSizer">
+              <cols>2</cols>
+              <rows>2</rows>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>Initial Camera:</label>
+                </object>
+                <flag>wxALIGN_RIGHT</flag>
+              </object>
+              <object class="sizeritem">
+                <object class="wxChoice" name="choiceCam">
+                  <content>
+                    <item>&lt;Default Camera&gt;</item>
+                  </content>
+                  <selection>0</selection>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>Speed:</label>
+                </object>
+                <flag>wxALIGN_RIGHT</flag>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtCamSpeed"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>Height:</label>
+                </object>
+                <flag>wxALIGN_RIGHT</flag>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtCamHeight"/>
+              </object>
+              <vgap>4</vgap>
+              <object class="spacer">
+                <size>0,0</size>
+              </object>
+              <object class="sizeritem">
+                <object class="wxCheckBox" name="chkCamPusher">
+                  <label>Attach &quot;Pusher&quot; collider to camera</label>
+                </object>
+              </object>
+            </object>
+            <flag>wxALL|wxEXPAND</flag>
+            <border>4</border>
+          </object>
+        </object>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticBoxSizer">
+          <label>Visual Options</label>
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxFlexGridSizer">
+              <cols>1</cols>
+              <rows>2</rows>
+              <object class="sizeritem">
+                <object class="wxCheckBox" name="chkUseSceneBG">
+                  <label>Use Scene Background Color</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticBoxSizer">
+                  <label>Texture for Loading Screen</label>
+                  <orient>wxVERTICAL</orient>
+                  <object class="sizeritem">
+                    <object class="wxFlexGridSizer">
+                      <cols>1</cols>
+                      <rows>2</rows>
+                      <object class="sizeritem">
+                        <object class="wxCheckBox" name="chkUseTex">
+                          <label>Enable</label>
+                        </object>
+                      </object>
+                      <object class="sizeritem">
+                        <object class="wxStaticText" name="lblLoadScreenName">
+                          <label>No Texture Loaded</label>
+                          <enabled>0</enabled>
+                        </object>
+                      </object>
+                      <object class="sizeritem">
+                        <object class="wxButton" name="btnLoadTexture">
+                          <label>Load</label>
+                          <enabled>0</enabled>
+                        </object>
+                      </object>
+                    </object>
+                    <flag>wxEXPAND</flag>
+                  </object>
+                </object>
+                <flag>wxALL|wxEXPAND</flag>
+                <border>4</border>
+              </object>
+            </object>
+          </object>
+        </object>
+        <flag>wxEXPAND</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxFlexGridSizer">
+          <cols>3</cols>
+          <rows>2</rows>
+          <object class="sizeritem">
+            <object class="wxStaticText">
+              <label>Location/Filename:</label>
+            </object>
+            <flag>wxALIGN_CENTRE_VERTICAL</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxTextCtrl" name="txtPath">
+              <size>200,20</size>
+              <style>wxTE_READONLY</style>
+            </object>
+            <flag>wxEXPAND</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnChooseLocation">
+              <label>Choose..</label>
+            </object>
+          </object>
+        </object>
+        <flag>wxALL|wxEXPAND</flag>
+        <border>3</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxFlexGridSizer">
+          <cols>2</cols>
+          <rows>2</rows>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnExport">
+              <label>Export</label>
+              <style></style>
+              <focused>1</focused>
+            </object>
+            <flag></flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnCancel">
+              <label>Cancel</label>
+              <focused>0</focused>
+            </object>
+          </object>
+          <hgap>4</hgap>
+        </object>
+        <flag>wxALL|wxALIGN_RIGHT</flag>
+        <border>8</border>
+      </object>
+    </object>
+  </object>
+</resource>

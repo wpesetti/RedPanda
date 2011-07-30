@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<resource version="2.3.0.1">
+  <object class="wxPanel" name="panelStoryObjUI" subclass="StoryObjUI">
+    <style>wxTAB_TRAVERSAL</style>
+    <object class="wxFlexGridSizer">
+      <hgap>0</hgap>
+      <growablerows>0</growablerows>
+      <rows>2</rows>
+      <growablecols>0</growablecols>
+      <cols>1</cols>
+      <vgap>0</vgap>
+      <object class="sizeritem">
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+        <object class="wxTreeCtrl" name="treeStoryObj">
+          <style>wxTR_EDIT_LABELS|wxTR_HAS_BUTTONS|wxTR_LINES_AT_ROOT|wxTR_MULTIPLE|wxTR_DEFAULT_STYLE|wxSUNKEN_BORDER</style>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <option>1</option>
+        <object class="wxFlexGridSizer">
+          <hgap>0</hgap>
+          <rows>2</rows>
+          <cols>2</cols>
+          <vgap>0</vgap>
+          <object class="sizeritem">
+            <object class="wxStaticBitmap" name="imgThumbnail">
+              <size>60, 60</size>
+            </object>
+          </object>
+          <object class="spacer">
+            <size>20, 20</size>
+            <flag>wxEXPAND</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticText" name="label_1">
+              <label>Number in scene:</label>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticText" name="lblInstanceCount">
+              <label>0</label>
+            </object>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+</resource>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="cp1252"?>
+<resource>
+  <object class="wxDialog" name="dlgMerge">
+    <title>Merge Project</title>
+    <object class="wxFlexGridSizer">
+      <cols>2</cols>
+      <rows>2</rows>
+      <object class="sizeritem">
+        <object class="wxStaticText">
+          <label>Other Project File</label>
+        </object>
+        <flag>wxALIGN_CENTRE_VERTICAL</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="sizeritem">
+            <object class="wxTextCtrl" name="txtPath"/>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnChooseFile">
+              <label>Choose</label>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText">
+          <label>Merge Prefix</label>
+        </object>
+        <flag>wxALIGN_CENTRE_VERTICAL</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxTextCtrl" name="txtPrefix"/>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="">
+          <label>Parent everything to new node</label>
+        </object>
+        <flag>wxALIGN_CENTRE_VERTICAL</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxCheckBox" name="chkParentToNewNode">
+              <label></label>
+            </object>
+            <flag>wxALIGN_CENTRE_VERTICAL</flag>
+          </object>
+          <object class="spacer">
+            <size>0,0</size>
+          </object>
+        </object>
+      </object>
+      <object class="spacer">
+        <size>0,0</size>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxStaticText">
+              <label>node name</label>
+            </object>
+            <flag>wxALIGN_CENTRE_VERTICAL</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxTextCtrl" name="txtNodeName"/>
+          </object>
+        </object>
+      </object>
+      <object class="spacer">
+        <size>0,0</size>
+      </object>
+      <object class="sizeritem">
+        <object class="wxButton" name="btnMerge">
+          <label>Merge</label>
+        </object>
+        <flag>wxALIGN_RIGHT</flag>
+      </object>
+      <hgap>5</hgap>
+    </object>
+    <centered>1</centered>
+    <size>350,150</size>
+  </object>
+</resource>

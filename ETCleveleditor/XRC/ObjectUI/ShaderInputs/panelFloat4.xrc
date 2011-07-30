@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<resource version="2.3.0.1">
+  <object class="wxPanel" name="panelFloat4" subclass="Float4InputPanel">
+    <style>wxTAB_TRAVERSAL</style>
+    <object class="wxFlexGridSizer">
+      <hgap>0</hgap>
+      <rows>5</rows>
+      <cols>1</cols>
+      <vgap>0</vgap>
+      <object class="sizeritem">
+        <object class="wxStaticText">
+          <label>Input Name:</label>
+        </object>
+        <flag>wxTOP|wxBOTTOM|wxLEFT</flag>
+        <border>2</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxTextCtrl" name="txtInputName"/>
+        <flag>wxLEFT|wxRIGHT</flag>
+        <border>4</border>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticBoxSizer">
+          <label>Values</label>
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxFlexGridSizer">
+              <cols>2</cols>
+              <rows>4</rows>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>f1</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtF1"/>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>f2</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtF2"/>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText">
+                  <label>f3</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtF3"/>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="">
+                  <label>f4</label>
+                </object>
+                <flag>wxTOP</flag>
+                <border>2</border>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtF4"/>
+                <flag>wxALL</flag>
+                <border>2</border>
+              </object>
+            </object>
+            <flag>wxEXPAND</flag>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxButton" name="btnUpdate">
+          <label>Update</label>
+        </object>
+        <flag>wxTOP|wxALL|wxEXPAND|wxALIGN_CENTRE_HORIZONTAL</flag>
+        <border>3</border>
+      </object>
+    </object>
+  </object>
+</resource>

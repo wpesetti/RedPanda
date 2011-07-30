@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<resource version="2.3.0.1">
+  <object class="wxPanel" name="appearancePanel">
+    <style>wxTAB_TRAVERSAL</style>
+    <object class="wxFlexGridSizer">
+      <hgap>0</hgap>
+      <rows>9</rows>
+      <cols>1</cols>
+      <vgap>0</vgap>
+      <object class="sizeritem">
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+        <object class="wxStaticBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <label>Color</label>
+          <object class="sizeritem">
+            <option>1</option>
+            <flag>wxEXPAND</flag>
+            <object class="wxFlexGridSizer">
+              <hgap>0</hgap>
+              <rows>4</rows>
+              <cols>3</cols>
+              <vgap>0</vgap>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_11">
+                  <label>Red</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slColorR">
+                  <style></style>
+                  <selmin></selmin>
+                  <selmax></selmax>
+                </object>
+                <flag>wxALIGN_LEFT</flag>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtColorR"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_12">
+                  <label>Green</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slColorG"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtColorG"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Blue</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slColorB"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtColorB"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="label_13">
+                  <label>Alpha</label>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxSlider" name="slColorA"/>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="txtColorA"/>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticBoxSizer">
+          <label>Textures</label>
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxListCtrl" name="listTextures">
+              <style>wxLC_ICON|wxLC_NO_HEADER|wxLC_SINGLE_SEL</style>
+            </object>
+            <flag>wxGROW</flag>
+            <minsize>0,200</minsize>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btnRestoreTextures">
+              <label>Restore Textures</label>
+            </object>
+          </object>
+        </object>
+        <flag>wxGROW</flag>
+      </object>
+    </object>
+  </object>
+</resource>
