@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Library>
+	<Meshes/>
+	<Textures/>
+	<Animations/>
+	<Actors/>
+	<Shaders/>
+	<Sounds/>
+	<JournalEntries/>
+	<Scripts/>
+	<Conversations/>
+	<Terrains/>
+</Library>

@@ -1,0 +1,2 @@
+SCRIPTS_LIST = []
+
