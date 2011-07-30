@@ -1,2 +1,0 @@
-SCRIPTS_LIST = []
-
