@@ -1030,9 +1030,3 @@ class LevelEditorBase(DirectObject):
     def setBackgroundColor(self, color):
         for i in range(4):
             base.winList[i].setClearColor(color)
-        
-        
-        
-
-            
-        
